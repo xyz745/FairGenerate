@@ -1,8 +1,8 @@
-In this work, we used the publicaly available dataset. The URL of each dataset is
+In this work, we used the publically available dataset. We have uploaded the dataset except for the below three due to size limit constraints. They can be obtained from the below URLs.
 
 Home Credit - https://www.kaggle.com/c/home-credit-default-risk
-MEPS15 - 
-MEPS16 - 
+MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv
+MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
 ********************************************************************************************************
 
