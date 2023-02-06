@@ -2,8 +2,8 @@
 
 In this work, we used the publically available dataset. We have uploaded the dataset in the **Dataset folder** except for the below three due to size limit constraints. They can be obtained from the below URLs.
 
-Home Credit - https://www.kaggle.com/c/home-credit-default-risk \\
-MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv \\
+Home Credit - https://www.kaggle.com/c/home-credit-default-risk <br />
+MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
 MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
 ********************************************************************************************************
