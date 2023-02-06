@@ -20,12 +20,12 @@ MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
 ## Baseline
 
-* FairMASK * - Proposed in the paper: 
+FairMASK  - Proposed in the paper: 
 FairMask: Better Fairness via Model-based Rebalancing of Protected Attributes is a pre-processing and post-processing method that uses the extrapolation method to replace protected attributes from the testing data. 
 
 We use the code they provided in the code repository: https://github.com/anonymous12138/biasmitigation
 
 
-* Fair-Smote *: Proposed in the paper: Bias in Machine Learning Software: Why? How? What to Do? Fair-Smote is a pre-processing method that uses the modified SMOTE method to make the distribution of sensitive features in the data set consistent, and then deletes biased data through situation testing.
+ Fair-Smote: Proposed in the paper: Bias in Machine Learning Software: Why? How? What to Do? Fair-Smote is a pre-processing method that uses the modified SMOTE method to make the distribution of sensitive features in the data set consistent, and then deletes biased data through situation testing.
 
 We use the code they provided in the code repository: https://github.com/joymallyac/Fair-SMOTE
