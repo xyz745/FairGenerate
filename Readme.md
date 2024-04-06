@@ -1,3 +1,8 @@
+
+We implemented FairGenerate and all baselines using Python 
+ 3.10.11. For Reweighing, we utilized AIF360\cite{aif360-oct-2018} (version 0.3.0). 
+
+
 ## Dataset
 
 In this work, we used the publically available dataset. We uploaded the datasets in the **Dataset**  folder except for the below, due to size limit constraints. They can be obtained from the below URLs.
