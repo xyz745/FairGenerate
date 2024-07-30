@@ -51,6 +51,14 @@ Reweighing is a pre-processing method that calculates a weight value for each da
 We use the following python's AIF360 module to achieve it:
 
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
+-----------------------------------------------------
+
+The uploaded Excel sheet contains the SOTA result, Scott-Knott Test analysis for Logistic Regression, Random Forest, and Decision Tree. 
+
+1. **Learner - LGR** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Logistic%20Regression_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
+2. **Learner - RF** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Random%20Forest_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
+3. **Learner - DT** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Decision%20Tree_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
+
 
 -----------------------------------------------------
 
