@@ -1,7 +1,4 @@
 
-**Replicate Package** -  [https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing](https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
-**Original Files** - [https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV ](https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV)
-
 We implemented FairGenerate and all baselines using Python 3.10.11.
 
 In this study, we utilized publicly available datasets. All datasets are available in the **Dataset** folder, except below, which were excluded due to size limitations.
@@ -25,7 +22,12 @@ MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 9. Home Credit - https://www.kaggle.com/c/home-credit-default-risk
 
 The replicate folder contains the codes to replicate our results. 
+**Replicate Package** -  [https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing](https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
+
 The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex (COMPAS_sex) and Adult_race (COMPAS_race).
+
+The Original Run Files are available from below:
+**Original Run Files** - [https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV ](https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV)
 
 Baselines
 -----------------------------------------------------
