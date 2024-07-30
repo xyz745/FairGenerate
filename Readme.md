@@ -1,4 +1,7 @@
 
+**Replicate Package** -  [https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing](https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
+**Original Files** - [https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV ](https://drive.google.com/drive/folders/1KQyf4UPRHOVlglXYjIDFJ-JdyTmaMoqV)
+
 We implemented FairGenerate and all baselines using Python 3.10.11.
 
 In this study, we utilized publicly available datasets. All datasets are available in the **Dataset** folder, except below, which were excluded due to size limitations.
