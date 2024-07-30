@@ -59,10 +59,3 @@ The uploaded Excel sheet contains the SOTA result, Scott-Knott Test analysis for
 2. **Learner - RF** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Random%20Forest_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
 3. **Learner - DT** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Decision%20Tree_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
 
-
------------------------------------------------------
-
-All codes are run on the Ubuntu Operating System. 
-sensitive features in the data set consistent, and then deletes biased data through situation testing.
-
-We use the code they provided in the code repository: https://github.com/joymallyac/Fair-SMOTE
