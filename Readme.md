@@ -1,7 +1,9 @@
 
 We implemented FairGenerate and all baselines using Python 3.10.11.
 
-In this work, we used the publically available dataset. We uploaded the datasets in the **Dataset**  folder except for the below due to size limit constraints. They can be obtained from the below URLs.
+In this study, we utilized publicly available datasets. All datasets are available in the **Dataset** folder, except below, which were excluded due to size limitations.
+
+They can be obtained from the below URLs.
 
 Home Credit - https://www.kaggle.com/c/home-credit-default-risk <br />
 MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
