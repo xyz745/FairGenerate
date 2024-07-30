@@ -1,11 +1,7 @@
 
-We implemented FairGenerate and all baselines using Python 
- 3.10.11. For Reweighing, we utilized AIF360\cite{aif360-oct-2018} (version 0.3.0). 
+We implemented FairGenerate and all baselines using Python 3.10.11.
 
-
-## Dataset
-
-In this work, we used the publically available dataset. We uploaded the datasets in the **Dataset**  folder except for the below, due to size limit constraints. They can be obtained from the below URLs.
+In this work, we used the publically available dataset. We uploaded the datasets in the **Dataset**  folder except for the below due to size limit constraints. They can be obtained from the below URLs.
 
 Home Credit - https://www.kaggle.com/c/home-credit-default-risk <br />
 MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
