@@ -5,7 +5,6 @@ In this study, we utilized publicly available datasets. All datasets are availab
 
 They can be obtained from the below URLs.
 
-Home Credit - https://www.kaggle.com/c/home-credit-default-risk <br />
 MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
 MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
