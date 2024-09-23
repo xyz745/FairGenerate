@@ -5,8 +5,8 @@ We utilized nine publicly available datasets. All datasets are available in the 
 
 They can be obtained from the below URLs.
 
-MEPS15 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
-MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
+**MEPS15** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
+**MEPS16** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
 ********************************************************************************************************
 
@@ -37,11 +37,13 @@ In the above replicate package -
 
 ********************************************************************************************************
 
-**The Original Run Files are available at below link:**
+**The Original Run Files are available at the below link:**
 **Original Run Files** - https://drive.google.com/drive/folders/1JMYm2y7XUWg0idTSKs0muW5Hdb_K5SGW?usp=drive_link
 
 * The original final contains the whole architecture of the proposed method. 
-* The actual final version that produced the results. 
+* The actual final version that produced the results.
+* Re-running them can lead to different results.
+* 
 
 Baselines
 -----------------------------------------------------
