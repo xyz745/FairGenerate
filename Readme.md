@@ -1,4 +1,5 @@
-In this work, we propose the ‘FairGenerate’ processing method, which addresses imbalanced data and biased labels within the training set. We implemented FairGenerate and all baselines using Python 3.10.11. 
+In this work, we propose the ‘FairGenerate,’ a pre-processing method that addresses imbalanced data and biased labels from the training dataset. 
+We implemented FairGenerate and all baselines using Python 3.10.11. 
 
 We utilized nine publicly available datasets. All datasets are available in the **Dataset** folder, except below, which were excluded due to size limitations.
 
@@ -26,10 +27,21 @@ MEPS16 - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 
 The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
 
+<h1> Code description</h1>
+
+In the above replicate package -
+* <b>generated_data</b> folder contains the final synthetic data samples produced by the proposed approach, which were used to report the results.
+* <b>FairGenerate.py </b> contains the code of the proposed approach to generate synthetic data samples.
+* For each scenario, a Jupyter notebook is provided, allowing for the replication of results. Directly running them will result in the replication of results
+* <b>Stats.py</b> file contains the code of Scott-Knott results.
+
 ********************************************************************************************************
 
 **The Original Run Files are available at below link:**
 **Original Run Files** - https://drive.google.com/drive/folders/1JMYm2y7XUWg0idTSKs0muW5Hdb_K5SGW?usp=drive_link
+
+* The original final contains the whole architecture of the proposed method. 
+* The actual final version that produced the results. 
 
 Baselines
 -----------------------------------------------------
