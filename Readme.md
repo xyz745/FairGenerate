@@ -41,9 +41,7 @@ In the above replicate package -
 **Original Run Files** - https://drive.google.com/drive/folders/1JMYm2y7XUWg0idTSKs0muW5Hdb_K5SGW?usp=drive_link
 
 * The original final contains the whole architecture of the proposed method. 
-* The actual final version that produced the results.
-* Re-running them can lead to different results.
-* 
+* The actual final version that produced the results.  
 
 Baselines
 -----------------------------------------------------
