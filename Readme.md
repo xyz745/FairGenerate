@@ -23,7 +23,7 @@ They can be obtained from the below URLs.
 ********************************************************************************************************
 
 **The replicate folder contains the codes to replicate our results.**
-**Replicate Package** -  [[https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing]](https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV)(https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
+**Replicate Package** -  [[https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing]]
 
 The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
 
