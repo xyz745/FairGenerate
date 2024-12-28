@@ -66,6 +66,6 @@ We use the following python's AIF360 module to achieve it:
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 -----------------------------------------------------
 
-The following folder contains an Excel sheet that contains the Scott-Knott Test analysis for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
+The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
 
 https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6
