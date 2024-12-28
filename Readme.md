@@ -23,7 +23,7 @@ They can be obtained from the below URLs.
 ********************************************************************************************************
 
 **The replicate folder contains the codes to replicate our results.**
-**Replicate Package** -  [https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing](https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
+**Replicate Package** -  [[https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing]](https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV)(https://drive.google.com/drive/folders/19Xs1k_Dbrtrb8TOGLUnt6w0_aBSCEH1D)
 
 The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
 
@@ -36,12 +36,6 @@ In the above replicate package -
 * <b>Stats.py</b> file contains the code of Scott-Knott results.
 
 ********************************************************************************************************
-
-**The Original Run Files are available at the below link:**
-**Original Run Files** - https://drive.google.com/drive/folders/1JMYm2y7XUWg0idTSKs0muW5Hdb_K5SGW?usp=drive_link
-
-* The original final contains the whole architecture of the proposed method. 
-* The actual final version that produced the results.  
 
 Baselines
 -----------------------------------------------------
@@ -56,6 +50,13 @@ We use the code they provided in the code repository: https://github.com/anonymo
 **LTDD: Linear Regression Based Training Data Debugging**
 LTDD is preprocessing algorithm that finds and removes the biased portion present in the features of the training data.
 We use the code they provided in the code repository: https://github.com/fairnesstest/LTDD
+
+**MirrorFair**
+MirrorFair is a preprocessing method that employs an ensemble approach to address fairness issues, grounded in the principles of
+counterfactual inference. It creates a counterfactual dataset from the original dataset and trains two
+separate models, one on the original dataset and the other on the counterfactual dataset. Finally, it
+adaptively combines the predictions from both models to produce fairer final decisions.
+We use the code they provided in the code repository: https://github.com/XY-Showing/FSE2024-MirrorFair
  
 **Reweighing: Data preprocessing techniques for classification without discrimination**
 Reweighing is a pre-processing method that calculates a weight value for each data point based on the expected probability and the observed probability, to help the unprivileged class have a greater chance of obtaining favorable prediction results. 
@@ -64,9 +65,6 @@ We use the following python's AIF360 module to achieve it:
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 -----------------------------------------------------
 
-The uploaded Excel sheet contains the state-of-the-art (SOTA) result, Scott-Knott Test analysis for Logistic Regression, Random Forest, and Decision Tree. 
+The following folder contains an Excel sheet that contains the Scott-Knott Test analysis for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
 
-1. **Learner - LGR** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Logistic%20Regression_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
-2. **Learner - RF** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Random%20Forest_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
-3. **Learner - DT** ::https://github.com/xyz745/FairGenerate/blob/main/Learner%20-%20Decision%20Tree_%20%20FairGenerate%20_%2011%20Cases%20_%2020%20times%20_.xlsx
-
+https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6
