@@ -22,8 +22,7 @@ They can be obtained from the below URLs.
 
 ********************************************************************************************************
 
-**The replicate folder contains the codes to replicate our results.**
-**Replicate Package** -  https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing
+**Code and Generated Data** -  https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing
 
 **Results** - https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6 
 
