@@ -66,6 +66,13 @@ We use the following python's AIF360 module to achieve it:
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 -----------------------------------------------------
 
+**Baselines Results at MirrorFair Settings**
+We have also run the baselines, including FairGenerate, on the MirrorFair Settings. Its results are available below.
+
+https://drive.google.com/drive/folders/177g0Z6-TRBTxQSCePclyT3TvsJH2UMCL?usp=sharing
+-----------------------------------------------------
+
+
 The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
 
 https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6
