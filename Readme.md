@@ -41,7 +41,8 @@ MirrorFair is a preprocessing method that employs an ensemble approach to addres
 **Reweighing: Data preprocessing techniques for classification without discrimination**
 
 Reweighing is a pre-processing method that calculates a weight value for each data point based on the expected probability and the observed probability, to help the unprivileged class have a greater chance of obtaining favourable prediction results. We use the following python's AIF360 module to achieve it: 
-<a>from aif360.algorithms.preprocessing import Reweighing</a>
+
+<code>from aif360.algorithms.preprocessing import Reweighing</code>
 
 -----------------------------------------------------
 <h2> Code description </h2>
