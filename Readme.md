@@ -44,63 +44,11 @@ We use the following python's AIF360 module to achieve it:
 
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 -----------------------------------------------------
+<h2> Code description </h2>
 
- <!-- Section heading for MirrorFair baseline results -->
-**Baselines Results at MirrorFair Settings**
+The FairGenerate folder includes the code for FairGenerate.
 
-<!-- Description of what was done in this section -->
-- We have also run the baselines, including FairGenerate, on the MirrorFair Settings. Its results are available below.
-
-<!-- Empty line for spacing -->
-- 
-
-<!-- Link to MirrorFair baseline results -->
-- https://drive.google.com/drive/folders/177g0Z6-TRBTxQSCePclyT3TvsJH2UMCL?usp=sharing
-
-<!-- Separator line -->
-- -----------------------------------------------------
-
-<!-- Empty line for spacing -->
-- 
-
-<!-- Link to code and generated data, marked with a symbol to draw attention -->
-- <!>**Code and Generated Data** -  https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing
-
-<!-- Link to result files used in the paper -->
-- **Results** - https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6 
-
-<!-- Explanation of how datasets with multiple protected attributes are split -->
-- The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
-
-<!-- HTML header used in markdown to indicate a new section: code description -->
-- <h1> Code description</h1>
-
-<!-- Intro line to explain what’s in the replication package -->
-- In the above replicate package -
-
-<!-- List item: folder containing final generated synthetic datasets -->
-- * <b>generated_data</b> folder contains the final synthetic data samples produced by the proposed approach, which were used to report the results.
-
-<!-- List item: main implementation file for FairGenerate -->
-- * <b>FairGenerate.py </b> contains the code of the proposed approach to generate synthetic data samples.
-
-<!-- List item: Jupyter notebooks for each scenario to allow easy replication -->
-- * For each scenario, a Jupyter notebook is provided, allowing for the replication of results. Directly running them will result in the replication of results
-
-<!-- List item: script for statistical test used in evaluation -->
-- * <b>Stats.py</b> file contains the code of Scott-Knott results.
-
-<!-- Decorative separator line -->
-- ********************************************************************************************************
-
-<!-- Empty line for spacing -->
-- 
-
-<!-- Line explaining what the Excel file contains -->
-- The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
-
-<!-- Link to folder containing the Excel summary of evaluation results -->
-<!-- https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6 -->
+-----------------------------------------------------
 
 ## 📄 Citation
 
