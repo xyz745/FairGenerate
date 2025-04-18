@@ -82,3 +82,20 @@ We use the following python's AIF360 module to achieve it:
 - The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
 
 https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6
+
+
+## 📄 Citation
+
+If you use this work, please cite our TOSEM 2025 paper:
+
+```bibtex
+@article{fairgenerate2025,
+  title     = {FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Label Removal},
+  author    = {Your Name and Coauthor Name and Another Coauthor},
+  journal   = {ACM Transactions on Software Engineering and Methodology (TOSEM)},
+  year      = {2025},
+  volume    = {XX},
+  number    = {XX},
+  pages     = {XX--XX},
+  doi       = {10.1145/XXXXXXX}
+}
