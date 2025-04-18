@@ -7,15 +7,14 @@ This page provides access to the FairGenerate source code, intermediate results,
 
 ********************************************************************************************************
 
+<h2> Datasets</h2>
 
-We utilized nine publicly available datasets. All datasets are available in the **Dataset** folder, except below, which were excluded due to size limitations.
+We utilized nine publicly available datasets. All datasets are available in the **Dataset** folder, except those below, which were excluded due to size limitations.
 
-They can be obtained from the below URLs.
+They can be obtained from the following URLS.
 
 **MEPS15** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
 **MEPS16** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
-
-********************************************************************************************************
 
 1. Adult Income dataset - http://archive.ics.uci.edu/ml/datasets/Adult
 2. COMPAS - https://github.com/propublica/compas-analysis
@@ -26,22 +25,6 @@ They can be obtained from the below URLs.
 7. MEPS15 - https://meps.ahrq.gov/mepsweb/
 8. MEPS16 - https://meps.ahrq.gov/mepsweb/
 9. Student - https://archive.ics.uci.edu/ml/datasets/Student+Performance
-
-********************************************************************************************************
-
-**Code and Generated Data** -  https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing
-
-**Results** - https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6 
-
-The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
-
-<h1> Code description</h1>
-
-In the above replicate package -
-* <b>generated_data</b> folder contains the final synthetic data samples produced by the proposed approach, which were used to report the results.
-* <b>FairGenerate.py </b> contains the code of the proposed approach to generate synthetic data samples.
-* For each scenario, a Jupyter notebook is provided, allowing for the replication of results. Directly running them will result in the replication of results
-* <b>Stats.py</b> file contains the code of Scott-Knott results.
 
 ********************************************************************************************************
 
@@ -73,13 +56,29 @@ We use the following python's AIF360 module to achieve it:
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 -----------------------------------------------------
 
-**Baselines Results at MirrorFair Settings**
-We have also run the baselines, including FairGenerate, on the MirrorFair Settings. Its results are available below.
-
-https://drive.google.com/drive/folders/177g0Z6-TRBTxQSCePclyT3TvsJH2UMCL?usp=sharing
------------------------------------------------------
-
-
-The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
+- **Baselines Results at MirrorFair Settings**
+- We have also run the baselines, including FairGenerate, on the MirrorFair Settings. Its results are available below.
+- 
+- https://drive.google.com/drive/folders/177g0Z6-TRBTxQSCePclyT3TvsJH2UMCL?usp=sharing
+- -----------------------------------------------------
+- 
+- <!>**Code and Generated Data** -  https://drive.google.com/drive/folders/1AUKoHZ2sPWzTogNX4YV9D9hJPymHWIQV?usp=sharing
+- 
+- **Results** - https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6 
+- 
+- The codes in the folder are named for the applicable scenarios. The Adult and COMPAS data sets include two protected attributes, so we divide them into two scenarios: Adult_sex and Adult_race, similarly COMPAS_sex and COMPAS_race.
+- 
+- <h1> Code description</h1>
+- 
+- In the above replicate package -
+- * <b>generated_data</b> folder contains the final synthetic data samples produced by the proposed approach, which were used to report the results.
+- * <b>FairGenerate.py </b> contains the code of the proposed approach to generate synthetic data samples.
+- * For each scenario, a Jupyter notebook is provided, allowing for the replication of results. Directly running them will result in the replication of results
+- * <b>Stats.py</b> file contains the code of Scott-Knott results.
+- 
+- ********************************************************************************************************
+- 
+- 
+- The following folder contains an Excel sheet that contains the Scott-Knott Test and Fairea evaluation for Logistic Regression, Decision Tree, Support Vector Machine, and Deep Learning Models Used in this study. 
 
 https://drive.google.com/drive/folders/1X3RdUNN07Vcum1Sh7HpUKCMfTrQ_HHC6
