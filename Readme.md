@@ -43,7 +43,7 @@ Reweighing is a pre-processing method that calculates a weight value for each da
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 
 -----------------------------------------------------
-<h2> Code description </h2>
+<h2> Code </h2>
 
 The **Code** folder contains FairGenerate code.
 
