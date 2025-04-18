@@ -5,12 +5,7 @@ Welcome to the homepage of our work, “FairGenerate: Enhancing Fairness Through
 ********************************************************************************************************
 <h2> Datasets</h2>
 
-In this study, we utilized the nine publicly available datasets. All datasets are available in the **Dataset** folder, except those below, which were excluded due to size limitations.
-
-They can be obtained from the following URLS.
-
-**MEPS15** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
-**MEPS16** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
+In this study, we utilized nine publicly available datasets. All datasets are provided in the Dataset folder, except Meps15 and Meps16, which are excluded due to size limitations. These two datasets can be accessed through the provided URL.
 
 1. Adult Income dataset - http://archive.ics.uci.edu/ml/datasets/Adult
 2. COMPAS - https://github.com/propublica/compas-analysis
@@ -22,6 +17,8 @@ They can be obtained from the following URLS.
 8. MEPS16 - https://meps.ahrq.gov/mepsweb/
 9. Student - https://archive.ics.uci.edu/ml/datasets/Student+Performance
 
+**MEPS15** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
+**MEPS16** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
 ********************************************************************************************************
 
 Baselines
