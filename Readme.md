@@ -45,7 +45,7 @@ Reweighing is a pre-processing method that calculates a weight value for each da
 -----------------------------------------------------
 <h2> Code description </h2>
 
-The FairGenerate folder includes the code for FairGenerate.
+The **Code** folder contains FairGenerate code.
 
 -----------------------------------------------------
 
