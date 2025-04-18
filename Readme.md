@@ -39,10 +39,10 @@ We use the code they provided in the code repository: https://github.com/fairnes
 MirrorFair is a preprocessing method that employs an ensemble approach to address fairness issues, grounded in the principles of counterfactual inference. It creates a counterfactual dataset from the original dataset and trains two separate models, one on the original dataset and the other on the counterfactual dataset. Finally, it adaptively combines the predictions from both models to produce fairer final decisions. We use the code they provided in the code repository: https://github.com/XY-Showing/FSE2024-MirrorFair
  
 **Reweighing: Data preprocessing techniques for classification without discrimination**
-Reweighing is a pre-processing method that calculates a weight value for each data point based on the expected probability and the observed probability, to help the unprivileged class have a greater chance of obtaining favorable prediction results. 
-We use the following python's AIF360 module to achieve it:
 
-<code>from aif360.algorithms.preprocessing import Reweighing</code>
+Reweighing is a pre-processing method that calculates a weight value for each data point based on the expected probability and the observed probability, to help the unprivileged class have a greater chance of obtaining favourable prediction results. We use the following python's AIF360 module to achieve it: 
+<a>from aif360.algorithms.preprocessing import Reweighing</a>
+
 -----------------------------------------------------
 <h2> Code description </h2>
 
