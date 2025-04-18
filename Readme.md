@@ -54,13 +54,17 @@ The **Code** folder contains FairGenerate code.
 If you use this work, please cite our TOSEM 2025 paper:
 
 ```bibtex
-@article{fairgenerate2025,
-  title     = {FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Label Removal},
-  author    = {Your Name and Coauthor Name and Another Coauthor},
-  journal   = {ACM Transactions on Software Engineering and Methodology (TOSEM)},
-  year      = {2025},
-  volume    = {XX},
-  number    = {XX},
-  pages     = {XX--XX},
-  doi       = {10.1145/XXXXXXX}
+@article{10.1145/3730579,
+author = {Joshi, Hem Chandra and Kumar, Sandeep},
+title = {FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Labels Removal},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3730579},
+doi = {10.1145/3730579},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = apr,
+keywords = {ML software, Software fairness, Bias mitigation, Imbalanced Data, Biased Labels}
 }
