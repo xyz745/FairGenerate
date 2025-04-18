@@ -1,6 +1,6 @@
 <h1>[TOSEM 2025] FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Labels Removal </h1> 
 
-Welcome to the homepage of our work, “FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Label Removal”, published at TOSEM 2025. This work introduces a novel preprocessing method, 'FairGenerate', designed to address imbalanced data and biased labels in training datasets.
+Welcome to the homepage of work, “FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Label Removal”, published at TOSEM 2025. This work introduces a novel preprocessing method, 'FairGenerate', designed to address imbalanced data and biased labels in training datasets.
 
 ********************************************************************************************************
 <h2> Datasets</h2>
