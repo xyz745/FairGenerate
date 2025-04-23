@@ -1,5 +1,27 @@
 From Generate import * 
 
+    # %%
+def situation(clf,X_train,y_train,keyword):
+    #they have used  as a classifier
+    X_flip = X_train.copy()
+    X_flip[keyword] = np.where(X_flip[keyword]==1, 0, 1)
+    a = np.array(clf.predict(X_train))
+    b = np.array(clf.predict(X_flip))
+    same = (a==b)
+    #print(same) #[True  True  True ... False  True  True  True]
+    same = [1 if each else 0 for each in same]  #[1 1 1... 0 1 1 1] if true makes it 1 ,else 0
+    X_train['same'] = same #make a new column 'same' and put above list into it.
+    X_train['y'] = y_train #make a new column 'y' and put y_train value into it.
+    X_rest = X_train[X_train['same']==1] #This creates a new DataFrame (X_rest) that contains only the rows where the 'same' column is 1.
+    y_rest = X_rest['y']
+    X_rest = X_rest.drop(columns=['same','y'])
+
+    print("Removed Points:",np.round((X_train.shape[0] - X_rest.shape[0]) / X_train.shape[0] * 100,4),"% || ", X_train.shape[0]-X_rest.shape[0])
+    point_removed=np.round((X_train.shape[0] - X_rest.shape[0]) / X_train.shape[0] * 100,4)
+    
+    return X_rest,y_rest,point_removed
+
+
 def fair_generate(random_state,dataset_orig_train1,dataset_orig_test1,X_train1,y_train1,X_test1,y_test1,protected_attribute,global_timestamp,folder_name,dataset_name):
 
     start_time = time.time()
