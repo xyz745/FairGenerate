@@ -1,23 +1,11 @@
 <h1>[TOSEM 2025] FairGenerate: Enhancing Fairness Through Synthetic Data Generation and Two-Fold Biased Labels Removal </h1>  This work introduces a novel preprocessing method, 'FairGenerate', designed to address imbalanced data and biased labels in training datasets.
 
-********************************************************************************************************
-<h2> Datasets</h2>
+-----------------------------------------------------
+<h2> Code </h2>
 
-In this study, we utilized nine publicly available datasets. All datasets are provided in the Dataset folder, except Meps15 and Meps16, which are excluded due to size limitations. These two datasets can be accessed through the provided URL.
+The file **FairGenerate.ipynb** contains the complete implementation of the FairGenerate method, including data preprocessing, synthetic data generation, and evaluation steps.
 
-1. Adult Income dataset - http://archive.ics.uci.edu/ml/datasets/Adult
-2. COMPAS - https://github.com/propublica/compas-analysis
-3. German Credit - https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29
-4. Bank Marketing - https://archive.ics.uci.edu/ml/datasets/bank+marketing
-5. Default Credit - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
-6. Heart - https://archive.ics.uci.edu/ml/datasets/Heart+Disease
-7. MEPS15 - https://meps.ahrq.gov/mepsweb/
-8. MEPS16 - https://meps.ahrq.gov/mepsweb/
-9. Student - https://archive.ics.uci.edu/ml/datasets/Student+Performance
-
-**MEPS15** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h181.csv <br />
-**MEPS16** - https://gitlab.liris.cnrs.fr/otouat/MEPS-HC/-/blob/main/h192.csv
-********************************************************************************************************
+-----------------------------------------------------
 
 <h2> Baselines </h2>
 
@@ -43,11 +31,7 @@ Reweighing is a pre-processing method that calculates a weight value for each da
 <code>from aif360.algorithms.preprocessing import Reweighing</code>
 
 -----------------------------------------------------
-<h2> Code </h2>
 
-The file **FairGenerate.ipynb** contains the complete implementation of the FairGenerate method, including data preprocessing, synthetic data generation, and evaluation steps.
-
------------------------------------------------------
 
 ## 📄 Citation
 
