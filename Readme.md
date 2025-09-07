@@ -3,7 +3,7 @@
 -----------------------------------------------------
 <h2> Code </h2>
 
-The file **FairGenerate.ipynb** contains the complete implementation of the FairGenerate method, including data preprocessing, synthetic data generation, and evaluation steps.
+The file **FairGenerate.ipynb** contains the complete implementation of the FairGenerate method, covering all three stages along with the evaluation steps.
 
 -----------------------------------------------------
 
