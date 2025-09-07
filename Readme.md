@@ -45,7 +45,7 @@ Reweighing is a pre-processing method that calculates a weight value for each da
 -----------------------------------------------------
 <h2> Code </h2>
 
-The **Code** folder contains FairGenerate code.
+The file **FairGenerate.ipynb** contains the complete implementation of the FairGenerate method, including data preprocessing, synthetic data generation, and evaluation steps.
 
 -----------------------------------------------------
 
